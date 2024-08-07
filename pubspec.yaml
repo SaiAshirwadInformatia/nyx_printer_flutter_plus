@@ -1,7 +1,7 @@
-name: nyx_printer
-description: "Flutter plugin for nyx printer service"
-version: 0.0.1
-homepage:
+name: nyx_printer_flutter
+description: "Flutter plugin for nyx printer"
+version: 1.0.0
+homepage: https://github.com/SZNoryox/nyx_printer_flutter
 
 environment:
   sdk: '>=3.2.6 <4.0.0'

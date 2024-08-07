@@ -1,4 +1,4 @@
-# nyx_printer_example
+# printer_example
 
 Demonstrates how to use the nyx_printer plugin.
 
