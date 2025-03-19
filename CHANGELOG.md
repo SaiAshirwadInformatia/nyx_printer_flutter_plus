@@ -2,6 +2,3 @@
 
 * Initial release.
 
-## 1.0.1
-
-* add package query permission in plugin module

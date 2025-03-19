@@ -1,6 +1,6 @@
 # printer_example
 
-Demonstrates how to use the nyx_printer_plus plugin.
+Demonstrates how to use the nyx_printer_flutter_plus plugin.
 
 ## Getting Started
 
