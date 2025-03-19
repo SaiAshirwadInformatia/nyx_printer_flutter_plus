@@ -1,4 +1,4 @@
-package net.nyx.nyx_printer
+package net.nyx.nyx_printer_plus
 
 import android.annotation.SuppressLint
 import android.content.ComponentName
@@ -17,9 +17,9 @@ import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 import io.flutter.util.HandlerCompat
-import net.nyx.nyx_printer.PrinterResult.SDK_SERVICE_NOT_BIND
-import net.nyx.nyx_printer.PrinterResult.SDK_UNKNOWN_ERR
-import net.nyx.nyx_printer.PrinterResult.msg
+import net.nyx.nyx_printer_plus.PrinterResult.SDK_SERVICE_NOT_BIND
+import net.nyx.nyx_printer_plus.PrinterResult.SDK_UNKNOWN_ERR
+import net.nyx.nyx_printer_plus.PrinterResult.msg
 import net.nyx.printerservice.print.IPrinterService
 import net.nyx.printerservice.print.PrintTextFormat
 import java.io.ByteArrayInputStream
@@ -70,7 +70,7 @@ class NyxPrinterPlugin : FlutterPlugin, MethodCallHandler {
     }
 
     override fun onAttachedToEngine(flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "nyx_printer_flutter")
+        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "nyx_printer_flutter_plus")
         channel.setMethodCallHandler(this)
 
         context = flutterPluginBinding.applicationContext

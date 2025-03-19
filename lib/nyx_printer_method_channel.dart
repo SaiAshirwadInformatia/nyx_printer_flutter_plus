@@ -8,7 +8,7 @@ import 'nyx_printer_platform_interface.dart';
 class MethodChannelNyxPrinter extends NyxPrinterPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('nyx_printer_flutter');
+  final methodChannel = const MethodChannel('nyx_printer_flutter_plus');
 
   @override
   Future<String?> getServiceVersion() async {

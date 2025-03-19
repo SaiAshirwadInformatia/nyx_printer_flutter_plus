@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:nyx_printer_flutter/nyx_printer.dart';
-import 'package:nyx_printer_flutter/nyx_printer_definition.dart';
+import 'package:nyx_printer_flutter_plus/nyx_printer.dart';
+import 'package:nyx_printer_flutter_plus/nyx_printer_definition.dart';
 
 void main() {
   runApp(const MyApp());

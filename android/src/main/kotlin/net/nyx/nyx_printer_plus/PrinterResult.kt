@@ -1,4 +1,4 @@
-package net.nyx.nyx_printer
+package net.nyx.nyx_printer_plus
 
 object PrinterResult {
     const val SDK_OK: Int = 0

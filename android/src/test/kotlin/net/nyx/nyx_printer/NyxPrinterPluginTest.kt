@@ -1,4 +1,4 @@
-package net.nyx.nyx_printer
+package net.nyx.nyx_printer_plus
 
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
